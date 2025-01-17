@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%), url('picpic.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.content {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    color: #fff;
+    text-align: left;
+}
+
+.text-and-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Flytta knappen mer till höger */
+    gap: 20px; /* Justera gapet mellan text och knapp */
+}
+
+.content h1 {
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    margin-top: 0%;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.content .par {
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 1.5;
+    font-size: 12px;
+}
+
+.content span {
+    color: #ff7200;
+    font-size: 65px;
+}
+
+.paypal-button-form {
+    display: inline-grid;
+    justify-items: center;
+    align-content: start;
+    gap: 0.5rem;
+}
+
+.pp-ADTA4S92ZCGRL {
+    text-align: center;
+    border: none;
+    border-radius: 0.25rem;
+    min-width: 11.625rem;
+    padding: 0 2rem;
+    height: 2rem;
+    font-weight: bold;
+    background-color: #FFD140;
+    color: #000000;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    cursor: pointer;
+}
+
+.paypal-button-form img {
+    height: 0.875rem;
+    vertical-align: middle;
+}
